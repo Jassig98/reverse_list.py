@@ -4,7 +4,6 @@
 # Description: takes a list and reverses its order
 
 def reverse_list(list1):
-"""reverses order of listed values"""
     i=0
     j= len(list1)-1
     while(i<j):
@@ -13,3 +12,4 @@ def reverse_list(list1):
         list1[j]=tmp
         i+=1
         j-=1
+"""reverses order of listed values"""
