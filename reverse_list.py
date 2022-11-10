@@ -9,7 +9,7 @@ def reverse_list(list1):
     while(i<j):
         t=list1[i]
         list1[i]=list1[j]
-        list1[j]=tmp
+        list1[j]=t
         i+=1
         j-=1
 """reverses order of listed values"""
